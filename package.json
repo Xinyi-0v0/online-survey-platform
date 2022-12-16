@@ -1,0 +1,24 @@
+{
+  "name": "online-survey-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xinyi-0v0/online-survey-platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xinyi-0v0/online-survey-platform/issues"
+  },
+  "homepage": "https://github.com/Xinyi-0v0/online-survey-platform#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "passport-google-oauth20": "^2.0.0",
+    "password": "^0.1.1"
+  }
+}
