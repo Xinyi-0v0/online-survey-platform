@@ -1,4 +1,4 @@
 node_modules
 dev_info
 config
-.DS_Store
+*.DS_Store
