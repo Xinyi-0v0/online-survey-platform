@@ -1,3 +1,4 @@
 node_modules
 dev_info
-keys.js
+config
+.DS_Store
