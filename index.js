@@ -10,6 +10,8 @@ mongoose.connect(keys.mongoURI).then(() => console.log("Connected!"));
 
 const app = express();
 
+app.use(express.static("public"));
+
 app.use(
   cookieSession({
     maxAge: 30 * 24 * 60 * 60 * 1000,
@@ -29,6 +31,8 @@ app.get("/new", (req, res) => {
 
 // shortcut: const autoRoutes = require('./routes/autoRoutes'); autoRoutes(app)
 require("./routes/autoRoutes")(app);
+require("./routes/billingRoutes")(app);
+require("./routes/webhook")(app);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {

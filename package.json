@@ -20,11 +20,15 @@
   },
   "homepage": "https://github.com/Xinyi-0v0/online-survey-platform#readme",
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
     "concurrently": "^7.6.0",
     "cookie-session": "^2.0.0",
     "express": "^4.18.2",
     "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
     "passport": "^0.5.3",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "stripe": "^11.5.0"
   }
 }
